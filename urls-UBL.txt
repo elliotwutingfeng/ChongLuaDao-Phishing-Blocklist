@@ -14861,7 +14861,9 @@
 *://*.vingroup.shop/*
 *://*.vingroup.store/*
 *://*.vingroup.vip/*
+*://*.vingroupglobal.com/*
 *://*.vingroupifc.vn/*
+*://*.vingroupinternational.vn/*
 *://*.vingroupventures.cc/*
 *://*.vingroupventures.shop/*
 *://*.vingroupventures.site/*

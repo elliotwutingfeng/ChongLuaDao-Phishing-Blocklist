@@ -15468,7 +15468,9 @@
 ||vingroup.shop^$all
 ||vingroup.store^$all
 ||vingroup.vip^$all
+||vingroupglobal.com^$all
 ||vingroupifc.vn^$all
+||vingroupinternational.vn^$all
 ||vingroupventures.cc^$all
 ||vingroupventures.shop^$all
 ||vingroupventures.site^$all
@@ -31817,7 +31819,9 @@
 ||www.vingroup.shop^$all
 ||www.vingroup.store^$all
 ||www.vingroup.vip^$all
+||www.vingroupglobal.com^$all
 ||www.vingroupifc.vn^$all
+||www.vingroupinternational.vn^$all
 ||www.vingroupventures.cc^$all
 ||www.vingroupventures.shop^$all
 ||www.vingroupventures.site^$all
