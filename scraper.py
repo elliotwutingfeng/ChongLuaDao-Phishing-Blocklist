@@ -74,26 +74,28 @@ if __name__ == "__main__":
     non_ips: set[str] = set()
     fqdns: set[str] = set()
     registered_domains: set[str] = set()
-    if urls:
-        for url in urls:
-            res = tldextract.extract(url)
-            registered_domain, domain, fqdn = (
-                res.registered_domain,
-                res.domain,
-                res.fqdn,
-            )
-            if domain and not fqdn:
-                # Possible IPv4 Address
-                try:
-                    socket.inet_pton(socket.AF_INET, domain)
-                    ips.add(domain)
-                except socket.error:
-                    # Is invalid URL and invalid IP -> skip
-                    pass
-            elif fqdn:
-                non_ips.add(url)
-                fqdns.add(fqdn)
-                registered_domains.add(registered_domain)
+
+    if not urls:
+        raise ValueError("Failed to scrape URLs")
+    for url in urls:
+        res = tldextract.extract(url)
+        registered_domain, domain, fqdn = (
+            res.registered_domain,
+            res.domain,
+            res.fqdn,
+        )
+        if domain and not fqdn:
+            # Possible IPv4 Address
+            try:
+                socket.inet_pton(socket.AF_INET, domain)
+                ips.add(domain)
+            except socket.error:
+                # Is invalid URL and invalid IP -> skip
+                pass
+        elif fqdn:
+            non_ips.add(url)
+            fqdns.add(fqdn)
+            registered_domains.add(registered_domain)
 
     if not non_ips and not ips:
         logger.error("No content available for blocklists.")
