@@ -10652,6 +10652,7 @@
 ||qut78r.tokyo^$all
 ||quwiex-company-official.com^$all
 ||quwiex.com^$all
+||quydautuvingroup.com^$all
 ||quydoi-tiente247.weebly.com^$all
 ||quydoichuyenkhoanquocte.weebly.com^$all
 ||quydoingoaite-quocte.weebly.com^$all
@@ -15465,6 +15466,7 @@
 ||vinfasttiktok.com^$all
 ||vinfinance.net^$all
 ||vingame88.com^$all
+||vingroup.edu.vn^$all
 ||vingroup.shop^$all
 ||vingroup.store^$all
 ||vingroup.vip^$all

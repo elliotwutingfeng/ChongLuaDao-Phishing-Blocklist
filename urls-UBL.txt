@@ -10185,6 +10185,7 @@
 *://*.qut78r.tokyo/*
 *://*.quwiex-company-official.com/*
 *://*.quwiex.com/*
+*://*.quydautuvingroup.com/*
 *://*.quydoingoaite247.cf/*
 *://*.quyetvu.com/*
 *://*.quytiente.com/*
@@ -14858,6 +14859,7 @@
 *://*.vinfasttiktok.com/*
 *://*.vinfinance.net/*
 *://*.vingame88.com/*
+*://*.vingroup.edu.vn/*
 *://*.vingroup.shop/*
 *://*.vingroup.store/*
 *://*.vingroup.vip/*
