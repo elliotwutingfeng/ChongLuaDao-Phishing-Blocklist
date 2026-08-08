@@ -4,4 +4,4 @@ mypy==1.17.1
 mypy-extensions==1.1.0
 pylint==3.3.8
 requests==2.32.4
-tldextract==5.3.0
+tldextract==5.3.2
